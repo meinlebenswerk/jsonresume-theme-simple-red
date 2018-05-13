@@ -37,7 +37,7 @@ p {
   opacity: 0.8;
 }
 em {
-  opacity: 0.5;
+  opacity: 0.5;summary
 }
 p {
   line-height: 1.4;
@@ -127,6 +127,18 @@ a {
   font-weight: 400;
   font-style: italic
 }
+
+#education .gpa{
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: italic
+}
+#education .courses{
+  font-size: 0.9em;
+  font-weight: 400;
+  font-style: italic;
+}
+
 #education .date,
 #work .date,
 #volunteer .date,
@@ -154,6 +166,7 @@ a {
 #volunteer .position,
 #volunteer .highlights,
 #volunteer .item > h5,
+#education .item > h5,
 #awards .awarder,
 #publications .website,
 #publications .publisher,

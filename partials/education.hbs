@@ -1,8 +1,9 @@
 {{#if resume.education.length}}
 <section id="education">
 	<h3>Education</h3>
+	<section>
 	{{#each resume.education}}
-	<section class="item">
+	<div class="item">
     <div class="row">
       {{#if institution}}
       <div class="institution">
@@ -50,7 +51,8 @@
 			{{/each}}
 		</ul>
 		{{/if}}
-	</section>
+	</div>
 	{{/each}}
+</section>
 </section>
 {{/if}}

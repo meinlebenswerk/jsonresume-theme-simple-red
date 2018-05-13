@@ -1,17 +1,44 @@
 {
-  "name": "jsonresume-theme-simple-red",
-  "version": "1.0.3",
-  "description": "Simple red theme for JSON Resume",
-  "author": "Andrew Avdeev <andrewww.avdeev@gmail.com> (https://github.com/aandrewww)",
-  "license": "MIT",
-  "homepage": "https://github.com/aandrewww/jsonresume-theme-simple-red",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aandrewww/jsonresume-theme-simple-red.git"
+  "_from": "jsonresume-theme-simple-red",
+  "_id": "jsonresume-theme-simple-red@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-ggbvgns+9k6R1cFpToWe4o6H3Wk=",
+  "_location": "/jsonresume-theme-simple-red",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jsonresume-theme-simple-red",
+    "name": "jsonresume-theme-simple-red",
+    "escapedName": "jsonresume-theme-simple-red",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jsonresume-theme-simple-red/-/jsonresume-theme-simple-red-1.0.3.tgz",
+  "_shasum": "8206ef827b3ef64e91d5c1694e859ee28e87dd69",
+  "_spec": "jsonresume-theme-simple-red",
+  "_where": "/home/jan/Documents/JS/resume_gen",
+  "author": {
+    "name": "Andrew Avdeev",
+    "email": "andrewww.avdeev@gmail.com",
+    "url": "https://github.com/aandrewww"
   },
   "bugs": {
     "url": "https://github.com/aandrewww/jsonresume-theme-simple-red/issues"
   },
+  "bundleDependencies": false,
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4",
+    "moment": "^2.18.1"
+  },
+  "deprecated": false,
+  "description": "Simple red theme for JSON Resume",
+  "homepage": "https://github.com/aandrewww/jsonresume-theme-simple-red",
   "keywords": [
     "jsonresume",
     "jsonresume-theme",
@@ -27,8 +54,11 @@
     "jsonresume theme",
     "theme"
   ],
-  "dependencies": {
-    "handlebars": "^2.0.0-alpha.4",
-    "moment": "^2.18.1"
-  }
+  "license": "MIT",
+  "name": "jsonresume-theme-simple-red",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aandrewww/jsonresume-theme-simple-red.git"
+  },
+  "version": "1.0.3"
 }

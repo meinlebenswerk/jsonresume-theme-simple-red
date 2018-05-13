@@ -4,14 +4,14 @@
   <section>
     {{#each resume.languages}}
     <div class="item">
-      {{#if language}}
+      {{#if name}}
       <div class="language">
-        {{language}}
+        {{name}}
       </div>
       {{/if}}
-      {{#if fluency}}
+      {{#if level}}
       <div class="fluency">
-        <em>{{fluency}}</em>
+        <em>{{level}}</em>
       </div>
       {{/if}}
     </div>

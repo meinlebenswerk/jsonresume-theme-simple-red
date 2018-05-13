@@ -2,6 +2,7 @@ var fs = require("fs");
 var path = require('path');
 var Handlebars = require("handlebars");
 var moment = require("moment");
+moment.locale('de');
 
 function render(resume) {
 	var css = fs.readFileSync(__dirname + "/style.css", "utf-8");
